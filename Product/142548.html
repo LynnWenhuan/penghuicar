@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html><!--PHP-->
+<head>
+	<title>汽车座椅</title>
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+	<meta name="applicable-device" content="pc,mobile">
+	<script>
+	  var viewWidth = window.screen.width;
+	  if (viewWidth < 768) {
+		//document.write('<meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">');
+	  } else {
+		document.write('<style>@media screen and (min-width: 768px) and (max-width: 1199px) {html {zoom: 0.8;}}</style>');
+	  }
+	</script>
+	<meta name="format-detection" content="telephone=no"/>
+			<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/share/animate.css"/>
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/scripts/swiper.animate/animate.min.css"/>
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/share/bootstrap.min.css"  />
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/share/ModuleStyleMobile.css?v=20171012"/>
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/share/ModuleStyleMobileV2.css"/>
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/share/ModuleMobileMainNavTpl.css"/>
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/share/ModuleTabsTpl.css"/>
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/scripts/flexslider/flexslider.css"/>	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/share/ModuleMobileNavTpl.css" />
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/share/fontawesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/scripts/iconfont/iconfont.css" />
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/scripts/slick/slick-theme.css" />
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/scripts/slick/slick.css" />
+	<!--<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/share/datetimepicker/jquery.datetimepicker.css"/>-->
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/skinp/R043/skinsrc/styles/style.css"/>
+	<!--[if lte IE 9]>
+	<link rel="stylesheet" href="https://static.styles-sys.com/scripts/swiper2/css/idangerous.swiper.css">
+	<script type="text/javascript" src="https://static.styles-sys.com/scripts/swiper2/js/idangerous.swiper.min.js"></script>
+	<![endif]-->
+	<!--[if gt IE 9]>
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/scripts/Swiper-3.4.0/css/swiper.min.css"/>
+	<script type="text/javascript" src="https://static.styles-sys.com/scripts/Swiper-3.4.0/js/swiper.min.js"></script>
+	<![endif]-->
+	<!--[if !IE]><!-->
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/scripts/Swiper-3.4.0/css/swiper.min.css"/>
+	<script type="text/javascript" src="https://static.styles-sys.com/scripts/Swiper-3.4.0/js/swiper.min.js"></script>
+	<!--<![endif]-->
+	<link href='https://static.styles-sys.com/PageCss.css.php?id=557_303703_1_&pagecacheid=PageCache_557_303703_1_cn_cn_https&siteid=557&yztest=&md5=7e43130dd6ffe69198aa6b09a32d4865' type='text/css' rel='stylesheet'/>		<script>
+        var SiteType = "1"; var CanDesign = "False"; var CanEditFront = 'False'; var SkinType = "3" || "2";var GridWidth = "1200px";var PageType="3";var DesignType="";
+        var IsWeiXin = navigator.userAgent.toLowerCase().match(/MicroMessenger/i) == 'micromessenger';
+	</script>
+	<script src="https://static.styles-sys.com/PageJs.js?act=MobileJs&v=20190110"></script>
+	<script>
+        loadStyleSheet('/share/jquery-ui-css/ui-lightness/jquery-ui-1.10.2.custom.min.css',CanDesign != 'True'); //非编辑模式下延时加载
+	</script>
+	</head>
+<body id="page_303703" class="module_bg_color">
+<!-- 正常页面结构 -->
+		
+	<!-- 手机导航 -->
+	<div id="MobileNav" class="mobileNav mobileNav_1" navnum="1" navcolor="black" navitemtype="0" enable = "1" style="">
+    <span class="titleName">XX汽配集团</span>
+    <span class="showFloatLayerBtn" onclick="showMobileNavFloatLayer(this)"><i></i></span>
+</div>
+<div id="MobileNavRenderElem" class="mobileNavRenderElem mobileNavRenderElem_1" style=""></div>
+<div id="MobileNavFloatLayer" class="mobileNavFloatLayer mobileNavFloatLayer_1" style="">
+    <ul class="itemList">
+				<li class="item" style="">
+			<a href="/" class="itemLink" target="_self">
+				<span class="icon" style="background-image: none; "></span>
+				<span class="menuName">首页</span>
+			</a>
+        </li><li class="item" style="">
+			<a href="/Content/303636.html" class="itemLink" target="_self">
+				<span class="icon" style="background-image: none; "></span>
+				<span class="menuName">关于我们</span>
+			</a>
+        </li><li class="item" style="">
+			<a href="/Content/303639.html" class="itemLink" target="_self">
+				<span class="icon" style="background-image: none; "></span>
+				<span class="menuName">产品展示</span>
+			</a>
+        </li><li class="item" style="">
+			<a href="/Content/303641.html" class="itemLink" target="_self">
+				<span class="icon" style="background-image: none; "></span>
+				<span class="menuName">新闻动态</span>
+			</a>
+        </li><li class="item" style="">
+			<a href="/Content/303642.html" class="itemLink" target="_self">
+				<span class="icon" style="background-image: none; "></span>
+				<span class="menuName">联系我们</span>
+			</a>
+        </li>    </ul>
+</div>
+<div id="MobileNavMask" class="mobileNavMask"></div>	<!--分销顶部用户-->
+	<div id='userbar'></div>
+	<div id="pagebody" class="siteStyle pageStyle container-fluid pagebody_nav pagebody_nav_1">
+		<div id='freemodulehelper' style='width:1200px;margin:0 auto;height:0px;overflow:hidden;'></div>
+					<div id='HeaderZone' ismodulecontainer='true' class=' HeaderContainer HeaderZoneContainer ZoneContainer HeaderZone ModuleContainer clearfix '><div class="ModuleItem  StaticModule " wo="1912" id="module_4120263"  >
+<div class="ModuleGridV2 module_4120263 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4120263 clearfix'><div class='ModuleGridContainer ModuleGridContainer4120263' gridswidthmode='2'><div class='row ModuleSubContainer'><div id='Sub4120263_1' class='ModuleContainer SubContainer ModuleGridItem    hidden-xs col-xs-0 col-sm-3 col-md-3 col-lg-3' positiontype='2' ismodulecontainer='true'><div class="ModuleItem  StaticModule " wo="298" id="module_4120276"  >
+<div class="ModuleImageTextV2 module_4120276 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4120276 clearfix'><div class='imageTextContainer clearfix'  hasResponsive='1' autohide='0' hideheight='150' hidewidth='760'>
+<div class='ModuleImageTextContent'><p><span style="font-size:36px;"><strong><span style="font-family: &quot;times new roman&quot;;"><span style="color:#ff0000;">LO</span>GO</span></strong></span></p>
+</div>
+</div>
+<script>changeFontSize($('#module_4120276'));</script></div>
+</div>
+</div>
+</div><div class='clearfix visible-xs'></div><div id='Sub4120263_2' class='ModuleContainer SubContainer ModuleGridItem    hidden-xs col-xs-0 col-sm-9 col-md-9 col-lg-9' positiontype='2' ismodulecontainer='true'><div class="ModuleItem  StaticModule " wo="898" id="module_4120284"  >
+<div class="ModuleNav module_4120284 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4120284 clearfix'><div class="pre_nav " data-direction="0" data-subitem-location="1" alwaysshow="0" showPc = "1" showHorizontalIpad = "1" showIpad = "0" showIphone = "0">
+    <div class="navLeft"></div>
+    <div class="nav">
+		<dl class="clearfix" style="display: inline-block;">
+						<dd id="Menu_420344_4120284" class="NavHorizontalDD navMainItemGroup" onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this, event)">
+                <a href='/' target="_self" class="navMainItem clearfix">首页</a>
+                                <ul id="SubMenu_420344_4120284" class="NavSubMenu" style="display:none;margin-top:0">
+					                </ul>            </dd><dd id="Menu_420361_4120284" class="NavHorizontalDD navMainItemGroup" onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this, event)">
+                <a href='/Content/303636.html' target="_self" class="navMainItem clearfix">关于我们</a>
+                                <ul id="SubMenu_420361_4120284" class="NavSubMenu" style="display:none;margin-top:0">
+					                </ul>            </dd><dd id="Menu_420364_4120284" class="NavHorizontalDD navMainItemGroup" onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this, event)">
+                <a href='/Content/303639.html' target="_self" class="navMainItem clearfix">产品展示</a>
+                                <ul id="SubMenu_420364_4120284" class="NavSubMenu" style="display:none;margin-top:0">
+					                </ul>            </dd><dd id="Menu_420366_4120284" class="NavHorizontalDD navMainItemGroup" onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this, event)">
+                <a href='/Content/303641.html' target="_self" class="navMainItem clearfix">新闻动态</a>
+                                <ul id="SubMenu_420366_4120284" class="NavSubMenu" style="display:none;margin-top:0">
+					                </ul>            </dd><dd id="Menu_420367_4120284" class="NavHorizontalDD navMainItemGroup" onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this, event)">
+                <a href='/Content/303642.html' target="_self" class="navMainItem clearfix">联系我们</a>
+                                <ul id="SubMenu_420367_4120284" class="NavSubMenu" style="display:none;margin-top:0">
+					                </ul>            </dd>        </dl>
+            </div>
+    <div class="navRight"></div>
+</div>
+<script type="text/javascript">	
+    var re_nav = new RegExp('^.*' + location.host, 'i');
+    $('.navMainItem,.navSubItem').each(function () {
+        var menuHref = $(this).prop('href').replace(/\?.*$/, '').replace(/\/*$/, '');
+        var homeUrl = location.protocol + "//" + location.hostname.replace(/\/*$/, '');
+        var homeUrlArr = [];
+        homeUrlArr.push(homeUrl);
+        homeUrlArr.push(homeUrl + "/index");
+        homeUrlArr.push(homeUrl + "/home/index");
+        homeUrlArr.push(homeUrl + "/" + getCookie('Lang'));
+        homeUrlArr.push(homeUrl + "/index.php");
+        homeUrlArr.push(homeUrl + "/home/index.php");
+        homeUrlArr.push(homeUrl + "/" + getCookie('Lang') + "/index.php");
+
+        var isMatch = false;
+        if ($.inArray(menuHref, homeUrlArr) > -1) {
+            if ($.inArray(location.href.replace(/\?.*$/, '').replace(/\/*$/, ''), homeUrlArr) > -1) {
+                isMatch = true;
+            }
+        } else if (location.href.indexOf($(this).prop('href')) > -1 && location.href.replace(/(\?|#).*$/, '') == $(this).prop('href').replace(/(\?|#).*$/, '') && location.pathname.indexOf('-') == $(this).prop('href').replace(re_nav, '').indexOf('-')) {
+            isMatch = true;
+        }
+        if (isMatch) {
+            if ($(this).hasClass('navMainItem')) {
+                $(this).addClass('navMainItemHighlight');
+                return false;
+            } else if ($(this).hasClass('navSubItem')) {
+                $(this).closest('.NavSubMenu').siblings('.navMainItem').addClass('navMainItemHighlight');
+                return false;
+            }
+        }
+    });
+</script></div>
+</div>
+</div>
+</div><div class='clearfix visible-lg'></div><div class='clearfix visible-xs'></div></div></div></div>
+</div>
+</div>
+</div>		<div id='BodyMain1Zone' ismodulecontainer='true' class='BodyContainer BodyZoneContainer ZoneContainer ModuleContainer BodyMain1Zone clearfix '>
+			<div class="ModuleItem  StaticModule " wo="1912" id="module_4123729"  >
+<div class="ModuleImage module_4123729 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4123729 clearfix'><img class='image-animation' src='https://cdn.img-sys.com/comdata/557/201612/201612081027155e40ad.jpg' alt='图片展示'  effect=''  align='absmiddle' hoverImgSrc=''/></div>
+</div>
+</div>
+<div class="ModuleItem  StaticModule " wo="1912" id="module_4387222"  >
+<div class="ModuleGridV2 module_4387222 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4387222 clearfix'><div class='ModuleGridContainer ModuleGridContainer4387222' gridswidthmode='2'><div class='row ModuleSubContainer'><div id='Sub4387222_1' class='ModuleContainer SubContainer ModuleGridItem     col-xs-12 col-sm-12 col-md-12 col-lg-12' positiontype='2' ismodulecontainer='true'><div class="ModuleItem  StaticModule " wo="1198" id="module_4123736"  >
+<div class="ModuleProductListV2 module_4123736 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4123736 clearfix'><div class="ModuleProductList">
+    <div class="productStyle3  masonry-container ProductList">
+		        <div class="productsBox col-xs-6 col-sm-3 col-md-3 col-lg-3 productItem ">
+            
+			<a href="/ProductDetail/713994.html" target="_blank" class="proCont">
+                <div class="proImg ">
+                         
+                        <img src="https://cdn.img-sys.com/comdata/557/product/201612081015165848c234bed1d_s.jpg" class="img-responsive image-animation"/>
+                    </div>                <div class="proInfo">
+                    <p class="proTitle proName"> 汽车座椅</p>                                                                              </div>
+                            </a>
+			
+        </div><div class="productsBox col-xs-6 col-sm-3 col-md-3 col-lg-3 productItem ">
+            
+			<a href="/ProductDetail/713993.html" target="_blank" class="proCont">
+                <div class="proImg ">
+                         
+                        <img src="https://cdn.img-sys.com/comdata/557/product/201612081014185848c1fa03fa6_s.jpg" class="img-responsive image-animation"/>
+                    </div>                <div class="proInfo">
+                    <p class="proTitle proName"> 汽车座椅</p>                                                                              </div>
+                            </a>
+			
+        </div><div class="productsBox col-xs-6 col-sm-3 col-md-3 col-lg-3 productItem ">
+            
+			<a href="/ProductDetail/713990.html" target="_blank" class="proCont">
+                <div class="proImg ">
+                         
+                        <img src="https://cdn.img-sys.com/comdata/557/product/201612081013165848c1bc148d9_s.jpg" class="img-responsive image-animation"/>
+                    </div>                <div class="proInfo">
+                    <p class="proTitle proName"> 汽车座椅</p>                                                                              </div>
+                            </a>
+			
+        </div><div class="productsBox col-xs-6 col-sm-3 col-md-3 col-lg-3 productItem ">
+            
+			<a href="/ProductDetail/713985.html" target="_blank" class="proCont">
+                <div class="proImg ">
+                         
+                        <img src="https://cdn.img-sys.com/comdata/557/product/201612081010045848c0fc2df58_s.jpg" class="img-responsive image-animation"/>
+                    </div>                <div class="proInfo">
+                    <p class="proTitle proName"> 汽车座椅</p>                                                                              </div>
+                            </a>
+			
+        </div><div class="productsBox col-xs-6 col-sm-3 col-md-3 col-lg-3 productItem ">
+            
+			<a href="/ProductDetail/713982.html" target="_blank" class="proCont">
+                <div class="proImg ">
+                         
+                        <img src="https://cdn.img-sys.com/comdata/557/product/201612081008035848c083d70c5_s.jpg" class="img-responsive image-animation"/>
+                    </div>                <div class="proInfo">
+                    <p class="proTitle proName"> 汽车座椅</p>                                                                              </div>
+                            </a>
+			
+        </div><div class="productsBox col-xs-6 col-sm-3 col-md-3 col-lg-3 productItem ">
+            
+			<a href="/ProductDetail/713973.html" target="_blank" class="proCont">
+                <div class="proImg ">
+                         
+                        <img src="https://cdn.img-sys.com/comdata/557/product/201612081006325848c028b9cf5_s.jpg" class="img-responsive image-animation"/>
+                    </div>                <div class="proInfo">
+                    <p class="proTitle proName"> 汽车座椅</p>                                                                              </div>
+                            </a>
+			
+        </div>    </div>
+    </div>
+<script>
+    initFunc4123736 = function(){
+        initProductList({
+            ModuleID:'4123736',
+            ShowStyle: '13',
+            ImgSizeType: '',
+            PageLink:'/Product/142548.html?PageNo={PageNo}&ClassID=142548&responseModuleId=4123736',
+            PageCount:1,
+            NoMoreProductText:'加载完毕',
+            ProductShowType:'',
+            IsScroll: '0',
+            Direction:'left'
+        });
+    }
+    initFunc4123736();
+</script></div>
+</div>
+</div>
+</div><div class='clearfix visible-lg'></div><div class='clearfix visible-xs'></div></div></div></div>
+</div>
+</div>
+		</div>
+		<div id='FooterZone' ismodulecontainer='true' class='FooterContainer FooterZoneContainer ZoneContainer FooterZone ModuleContainer clearfix'><div class="ModuleItem  StaticModule " wo="1912" id="module_4121490"  >
+<div class="ModuleGridV2 module_4121490 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4121490 clearfix'><div class='ModuleGridContainer ModuleGridContainer4121490' gridswidthmode='2'><div class='row ModuleSubContainer'><div id='Sub4121490_1' class='ModuleContainer SubContainer ModuleGridItem     col-xs-12 col-sm-9 col-md-9 col-lg-9' positiontype='2' ismodulecontainer='true'><div class="ModuleItem  StaticModule " wo="898" id="module_4121491"  >
+<div class="ModuleNav module_4121491 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4121491 clearfix'><div class="pre_nav " data-direction="0" data-subitem-location="1" alwaysshow="0" showPc = "1" showHorizontalIpad = "1" showIpad = "0" showIphone = "0">
+    <div class="navLeft"></div>
+    <div class="nav">
+		<dl class="clearfix" style="display: inline-block;">
+						<dd id="Menu_420344_4121491" class="NavHorizontalDD navMainItemGroup" onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this, event)">
+                <a href='/' target="_self" class="navMainItem clearfix">首页</a>
+                                <ul id="SubMenu_420344_4121491" class="NavSubMenu" style="display:none;margin-top:0">
+					                </ul>            </dd><dd id="Menu_420361_4121491" class="NavHorizontalDD navMainItemGroup" onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this, event)">
+                <a href='/Content/303636.html' target="_self" class="navMainItem clearfix">关于我们</a>
+                                <ul id="SubMenu_420361_4121491" class="NavSubMenu" style="display:none;margin-top:0">
+					                </ul>            </dd><dd id="Menu_420364_4121491" class="NavHorizontalDD navMainItemGroup" onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this, event)">
+                <a href='/Content/303639.html' target="_self" class="navMainItem clearfix">产品展示</a>
+                                <ul id="SubMenu_420364_4121491" class="NavSubMenu" style="display:none;margin-top:0">
+					                </ul>            </dd><dd id="Menu_420366_4121491" class="NavHorizontalDD navMainItemGroup" onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this, event)">
+                <a href='/Content/303641.html' target="_self" class="navMainItem clearfix">新闻动态</a>
+                                <ul id="SubMenu_420366_4121491" class="NavSubMenu" style="display:none;margin-top:0">
+					                </ul>            </dd><dd id="Menu_420367_4121491" class="NavHorizontalDD navMainItemGroup" onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this, event)">
+                <a href='/Content/303642.html' target="_self" class="navMainItem clearfix">联系我们</a>
+                                <ul id="SubMenu_420367_4121491" class="NavSubMenu" style="display:none;margin-top:0">
+					                </ul>            </dd>        </dl>
+            </div>
+    <div class="navRight"></div>
+</div>
+<script type="text/javascript">	
+    var re_nav = new RegExp('^.*' + location.host, 'i');
+    $('.navMainItem,.navSubItem').each(function () {
+        var menuHref = $(this).prop('href').replace(/\?.*$/, '').replace(/\/*$/, '');
+        var homeUrl = location.protocol + "//" + location.hostname.replace(/\/*$/, '');
+        var homeUrlArr = [];
+        homeUrlArr.push(homeUrl);
+        homeUrlArr.push(homeUrl + "/index");
+        homeUrlArr.push(homeUrl + "/home/index");
+        homeUrlArr.push(homeUrl + "/" + getCookie('Lang'));
+        homeUrlArr.push(homeUrl + "/index.php");
+        homeUrlArr.push(homeUrl + "/home/index.php");
+        homeUrlArr.push(homeUrl + "/" + getCookie('Lang') + "/index.php");
+
+        var isMatch = false;
+        if ($.inArray(menuHref, homeUrlArr) > -1) {
+            if ($.inArray(location.href.replace(/\?.*$/, '').replace(/\/*$/, ''), homeUrlArr) > -1) {
+                isMatch = true;
+            }
+        } else if (location.href.indexOf($(this).prop('href')) > -1 && location.href.replace(/(\?|#).*$/, '') == $(this).prop('href').replace(/(\?|#).*$/, '') && location.pathname.indexOf('-') == $(this).prop('href').replace(re_nav, '').indexOf('-')) {
+            isMatch = true;
+        }
+        if (isMatch) {
+            if ($(this).hasClass('navMainItem')) {
+                $(this).addClass('navMainItemHighlight');
+                return false;
+            } else if ($(this).hasClass('navSubItem')) {
+                $(this).closest('.NavSubMenu').siblings('.navMainItem').addClass('navMainItemHighlight');
+                return false;
+            }
+        }
+    });
+</script></div>
+</div>
+</div>
+<div class="ModuleItem  StaticModule " wo="898" id="module_4121492"  >
+<div class="ModuleImageTextV2 module_4121492 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4121492 clearfix'><div class='imageTextContainer clearfix'  hasResponsive='1' autohide='0' hideheight='150' hidewidth='760'>
+<div class='ModuleImageTextContent'><p><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px; color: rgb(255, 255, 255);">佛山市XXX有限公司</span></p><p><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px; color: rgb(255, 255, 255);">地址：xx市xx区xx路213号xx大厦A座写字楼1203</span></p><p><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px; color: rgb(255, 255, 255);">全国咨询热线：4000-000-000</span></p><p><br/></p></div>
+</div>
+<script>changeFontSize($('#module_4121492'));</script></div>
+</div>
+</div>
+</div><div class='clearfix visible-xs'></div><div id='Sub4121490_2' class='ModuleContainer SubContainer ModuleGridItem    hidden-xs col-xs-0 col-sm-3 col-md-3 col-lg-3' positiontype='2' ismodulecontainer='true'><div class="ModuleItem  StaticModule mhidden-xs " wo="298" id="module_4121495"  >
+<div class="ModuleImage module_4121495 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4121495 clearfix'><img class='image-animation' src='https://cdn.img-sys.com/comdata/557/201612/201612072051165943c0.gif' alt='图片展示'  effect=''  align='absmiddle' hoverImgSrc=''/></div>
+</div>
+</div>
+</div><div class='clearfix visible-lg'></div><div class='clearfix visible-xs'></div></div></div></div>
+</div>
+</div>
+<div class="ModuleItem  StaticModule " wo="1912" id="module_4121497"  >
+<div class="ModuleImage module_4121497 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4121497 clearfix'><img class='image-animation' src='https://cdn.img-sys.com/comdata/557/201612/201612072055423b69fd.gif' alt='图片展示'  effect=''  align='absmiddle' hoverImgSrc=''/></div>
+</div>
+</div>
+<div class="ModuleItem  StaticModule " wo="1912" id="module_4121498"  >
+<div class="ModuleImageTextV2 module_4121498 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4121498 clearfix'><div class='imageTextContainer clearfix'  hasResponsive='1' autohide='0' hideheight='150' hidewidth='760'>
+<div class='ModuleImageTextContent'><p style="text-align: center;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px; color: rgb(255, 255, 255);">CopyRight 2016XX汽配集团 All Right Reserved</span></p></div>
+</div>
+<script>changeFontSize($('#module_4121498'));</script></div>
+</div>
+</div>
+</div>			</div>
+		<!-- 通栏模块 -->
+		<!-- 底部导航 -->
+	<div class="ModuleItem  "  id="module_4120068"  >
+<div class="FootNavQRCode FootBar" style="z-index:899" onclick="QRShow();">
+    <div class="FootNavMask"></div>
+    <span class="FootNavQRCodeImg" style="display:block;"><img id="imgFootNavQrCode" style="width: 160px; height: 160px;" _src="/index.php?c=front/Qrcode&a=getFootNavQrCode" /></span>
+</div>
+<div class="QQServices" style="z-index:1000" onclick="showService();">
+    <div class="FootNavMask"></div>
+    <ul class="QQList">
+		        <li class="QQCancel">取消</li>
+    </ul>
+</div>
+<div id="MobileFootNavRenderElem" class="mobileNavRenderElem iconAndText" style="position:static;"></div>
+<div id="MobileFootNav" class="footer FootBar iconAndText" style="z-index:900;" bgcolorrelatedtomobilenav="0" ParamfontColor="" enable = "1">
+    <ul class="foot-nav-list" style="">
+		        <li style="width:25%;" itemid=7>
+            <a onclick="showHomePage()">
+                <span class="icon homePage iconfont " style="color:#666;"></span>
+                <span class="itemText" style="color:;">首页</span>            </a>
+        </li>
+                <li style="width:25%;" itemid=5>
+            <a onclick="javascript:history.go(-1);">
+                <span class="icon prevPage iconfont /images/iconV2/white/Arrow_right.png" style="color:#666;background-image:url(https://cdn.img-sys.com/images/iconV2/white/Arrow_right.png);"></span>
+                <span class="itemText" style="color:;">返回</span>            </a>
+        </li>
+        <li style="width:25%; " itemid=2>
+            <a href="tel:">
+                <span class="icon footTel iconfont " style="color:#666;"></span>
+                <span class="itemText" style="color:;">电话咨询</span>            </a>
+        </li>
+                <li style="width:25%;" itemid=1>
+            <a href="/FeedBack" target="_self">
+                <span class="icon footGuestbook iconfont  " style="color:#666;"></span>
+                <span class="itemText" style="color:;">在线留言</span>            </a>
+        </li>
+                <li style="width:25%;display:none;" itemid=3>
+            <a href="">
+                <span class="icon iconfont " style="color:#666;"></span>
+                <span class="itemText" style="color:;">置顶</span>            </a>
+        </li>        <li style="width:25%;display:none;" itemid=4>
+            <a href="">
+                <span class="icon iconfont " style="color:#666;"></span>
+                <span class="itemText" style="color:;">二维码</span>            </a>
+        </li>        <li style="width:25%;display:none;" itemid=6>
+            <a href="">
+                <span class="icon iconfont " style="color:#666;"></span>
+                <span class="itemText" style="color:;">前进</span>            </a>
+        </li>        <li style="width:25%;display:none;" itemid=8>
+            <a href="">
+                <span class="icon iconfont " style="color:#666;"></span>
+                <span class="itemText" style="color:;">在线客服</span>            </a>
+        </li>        <li style="width:25%;display:none;" itemid=9>
+            <a href="">
+                <span class="icon iconfont " style="color:#666;"></span>
+                <span class="itemText" style="color:;">购物车</span>            </a>
+        </li>        <li style="width:25%;display:none;" itemid=11>
+            <a href="/ProductClassPage">
+                <span class="icon iconfont " style="color:#666;"></span>
+                <span class="itemText" style="color:;">产品分类</span>            </a>
+        </li>    </ul>
+</div><script type="text/javascript">
+    function QRShow() {
+		if(!$('#imgFootNavQrCode').attr('src')){
+			$('#imgFootNavQrCode').attr('src',$('#imgFootNavQrCode').attr('_src'));
+		}
+        $(".QQServices").hide();
+        $(".FootNavQRCode").toggle();
+        var dmHeight = $(".FootNavQRCodeImg").height();
+        var sTop = $(".footer").offset().top - dmHeight;
+        var left = $(".footer").offset().left;
+        var width = $('#pagebody').width();
+
+        if (navigator.platform.toLowerCase().indexOf("win") > -1) width = parseInt(width) - 17;
+        if (typeof (modulesContainers) != 'undefined') {
+            $(".FootNavQRCodeImg").css({
+                "width": $('#pagebody').width() - 6,
+                "bottom": $(".footer").height(),
+                "left": left + "px",
+                "height": dmHeight + "px"
+            });
+            $(".FootNavMask").css({
+                "width": "100%",
+                "height": $('#pagebody').outerHeight() + "px",
+                "top": $('#pagebody').offset().top + "px"
+            });
+        } else {
+            $(".FootNavQRCodeImg").css({
+                "width": "192px",
+                "height": "192px",
+                "top": "initial",
+                "bottom": $('#MobileFootNav').innerHeight(),
+                "left": ($('body').outerWidth() / 2 - $(".FootNavQRCodeImg").outerWidth() / 2)
+            });
+            $(".FootNavMask").css({"width": "100%", "height": "100%", "top": "0"});
+        }
+        return false;
+    }
+
+    function gototop(){
+        $('html,body').animate({scrollTop:0},'slow');
+    }
+    function gotobottom(){
+      var scrollHeight = $('body').prop("scrollHeight");
+      $('html,body').animate({scrollTop:scrollHeight},'slow');
+    }
+
+   
+    
+    function ejectimg(obj,action){
+    //console.log(window.event);
+    //如果是弹出窗口的
+    //   var Aobj = $(document).find("a");
+    //   $(Aobj).each(function(i,item){
+    //         if($(item).attr('href').indexOf('javascript:ejectimg')>-1)
+    //         {
+
+    //             var divhtml="<div><img src='"+obj+"'/></div>"
+    //             $(this).append(divhtml);
+    //             console.log($(this).html());
+    //             return false;
+    //         }
+    //   })
+    }
+
+    function showService() {
+        $(".QQServices").show();
+        $(".FootNavQRCode").hide();
+        if (typeof (modulesContainers) != 'undefined') {
+            $(".mobileNav").css("z-index",10);
+            var dmHeight = $(".QQList").outerHeight();
+            var sTop = $(".footer").offset().top - dmHeight+45;
+            var left = $(".footer").offset().left;
+            var width = $('#pagebody').width();
+            if (navigator.platform.toLowerCase().indexOf("win") > -1) width = parseInt(width) - 17;
+            $(".QQList").css({ "width": $('#pagebody').outerWidth() - 6 + "px", "top": sTop + "px", "left": left + "px", "height": dmHeight + "px" });
+            $(".FootNavMask").css({ "width": "100%", "height": $('#pagebody').outerHeight() + "px", "top": $('#pagebody').offset().top + "px" });
+        } else {
+            $(".QQList").css({
+                "bottom": "0px"
+            });
+            $(".FootNavMask").css({ "width": "100%", "height": "100%", "top": "0" });
+        }
+        return false;
+    }
+  
+   
+
+    $(document).on("click", document.body, function (e) {
+        if ($(e.target).hasClass("QQCancel")) {
+            if (typeof (modulesContainers) != 'undefined') {
+                $(".QQList").removeAttr("style");
+            }
+            $(".QQServices").hide();
+            e.stopPropagation();
+        }
+    });
+    function showHomePage() {
+        if (window.location.search.indexOf('view=1') > -1) {
+            window.location.href = window.location.protocol + '//' + window.location.host + '?view=1&SiteType=1';
+        } else {
+            window.location.href = window.location.protocol + '//' + window.location.host + '?SiteType=1';
+        }
+    }
+    $("#MobileFootNavRenderElem").remove();
+    function getUrlParam(name) {
+        //构造一个含有目标参数的正则表达式对象
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        //匹配目标参数
+        var r = window.location.search.substr(1).match(reg);
+        //返回参数值
+        if (r != null) {
+            return decodeURI(r[2]);
+        }
+        return null;
+    }
+</script>
+</div>
+<!-- 正常页面结构 end -->
+<!-- 单页滚屏页面结构 -->
+<!-- 单页滚屏页面结构 end -->
+<script type="text/javascript">
+    var rawUrl="";
+    var Page="YouZhan.SiteFront.ProductList";
+    var PageID="303703";
+    var PageConf = {"EnableBodyTopZone":true,"EnableBodyFootZone":true,"EnableBodyLeftZone":false,"EnableBodyRightZone":false,"EnableBodyFullPage":true,"EnableBodyMain1Zone":true,"EnableBodyMain2Zone":false,"EnableBodyMain3Zone":false,"EnableBodyMain4Zone":false,"HeaderZonePositionType":0,"FooterZonePositionType":0,"BodyTopZonePositionType":0,"BodyFootZonePositionType":0,"BodyLeftZonePositionType":0,"BodyRightZonePositionType":0,"BodyMain1ZonePositionType":0,"BodyMain2ZonePositionType":0,"BodyMain3ZonePositionType":0,"BodyMain4ZonePositionType":0,"EnableFreeMain":true};
+    var SiteType="1";
+    var IsUserCenter = "0";
+    var hasFullSwitch = 0;
+    var isPlatformVersion = "1";
+	var SiteCreateTime = "1481104701";
+	var ENABLE_FENXIAO = "1";
+	var isSysDomain = false; var SysDomain = ["yz168.cc","ijianzhan.net","iyz168.com","wds168.cn","dzg168.com","ish168.com"];
+	for(var i in SysDomain){ if(location.host.indexOf(SysDomain[i]) > -1){isSysDomain = true;break;} }
+    if(navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE6.0" || navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE7.0" || navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE8.0"){
+		checkBowerTip();
+	}
+</script>
+<!-- 加载设计界面所用的脚本和css -->
+<script type='text/javascript'>
+	delayload({ id: ['pagebody'], src: '/images/loading2.gif', bgsrc: '/images/imgbg.png' });
+</script>
+<!--统计代码-->
+<script type='text/javascript'>
+	var referrer = document.referrer + '';
+	if(IsWeiXin && referrer == '') referrer = 'wechat.com';
+	var countersrc = '/index.php?c=Front/Count&Referer='+escape(referrer)+'&Width='+escape(screen.width)+'&Height='+escape(screen.height)+'&Page='+escape(window.location.pathname+window.location.search);
+    document.write("<script async type='text/javascript' src='" + countersrc + "'></"+"script>");
+    if (window.location.getQueryString){
+      var linkKID = window.location.getQueryString("linkKID");
+      if(linkKID){
+		var linkKeySrc = '/index.php?c=Front/Seo&a=innerLink&linkKID=' + linkKID;
+        document.write("<script async type='text/javascript' src='" + linkKeySrc + "'></"+"script>");
+      }
+    }
+</script>
+<!-- 百度商桥&百度统计安装代码 -->
+<script src="https://static.styles-sys.com/share/wow.min.js"></script>
+	<script>
+        new WOW().init();
+	</script>
+<script>
+    if (!IsWeiXin){
+        addScript('/share/floaters.js',function(){
+            addScript('/index.php?c=Front/IMPanel',null);
+        });
+		    }else{
+        addScript('/scripts/jweixin-1.0.0.js');
+        addScript('/scripts/party/weixinshare.js?v=20180919002');
+    }
+    $(window).load(function(){
+        if (IsWeiXin) {
+            var match = window.location.href.match(/#invite(\d+)/i);
+            var barurl = "/index.php?c=front/UserBar";
+            if(match && match[1]) barurl += "&invite="+match[1];
+            if ("YouZhan.SiteFront.ProductList" == "YouZhan.SiteFront.HomeIndex" || "YouZhan.SiteFront.ProductList" == "YouZhan.SiteFront.NewsDetail" || "YouZhan.SiteFront.ProductList" == "YouZhan.SiteFront.ProductDetail") $("#userbar").load(barurl);
+        }
+    });
+</script>
+<script>
+	$(window).load(function(){
+		var WUserID = getCookie("WUserID");
+		$.getJSON("https://www.72dns.com/autoweb/getagentinfo.aspx?action=getcopyright&wuserid="+ WUserID +"&callback=?", null, function (json) {
+				if(json.success){
+					$("body").append(json.info);
+				}
+			}
+		);
+	})
+</script>
+
+</body>
+</html>

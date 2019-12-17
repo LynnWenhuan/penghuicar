@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html><!--PHP-->
+<head>
+	<title>汽配电商最重要的还是“汽配数据”</title>
+	<meta name="keywords" content=""/>
+	<meta name="description" content=""/>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<meta name="renderer" content="webkit">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+	<meta name="applicable-device" content="pc,mobile">
+	<script>
+	  var viewWidth = window.screen.width;
+	  if (viewWidth < 768) {
+		//document.write('<meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">');
+	  } else {
+		document.write('<style>@media screen and (min-width: 768px) and (max-width: 1199px) {html {zoom: 0.8;}}</style>');
+	  }
+	</script>
+	<meta name="format-detection" content="telephone=no"/>
+			<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/share/animate.css"/>
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/scripts/swiper.animate/animate.min.css"/>
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/share/bootstrap.min.css"  />
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/share/ModuleStyleMobile.css?v=20171012"/>
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/share/ModuleStyleMobileV2.css"/>
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/share/ModuleMobileMainNavTpl.css"/>
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/share/ModuleTabsTpl.css"/>
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/scripts/flexslider/flexslider.css"/>	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/share/ModuleMobileNavTpl.css" />
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/share/fontawesome/css/font-awesome.min.css" />
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/scripts/iconfont/iconfont.css" />
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/scripts/slick/slick-theme.css" />
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/scripts/slick/slick.css" />
+	<!--<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/share/datetimepicker/jquery.datetimepicker.css"/>-->
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/skinp/R043/skinsrc/styles/style.css"/>
+	<!--[if lte IE 9]>
+	<link rel="stylesheet" href="https://static.styles-sys.com/scripts/swiper2/css/idangerous.swiper.css">
+	<script type="text/javascript" src="https://static.styles-sys.com/scripts/swiper2/js/idangerous.swiper.min.js"></script>
+	<![endif]-->
+	<!--[if gt IE 9]>
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/scripts/Swiper-3.4.0/css/swiper.min.css"/>
+	<script type="text/javascript" src="https://static.styles-sys.com/scripts/Swiper-3.4.0/js/swiper.min.js"></script>
+	<![endif]-->
+	<!--[if !IE]><!-->
+	<link rel="stylesheet" type="text/css" href="https://static.styles-sys.com/scripts/Swiper-3.4.0/css/swiper.min.css"/>
+	<script type="text/javascript" src="https://static.styles-sys.com/scripts/Swiper-3.4.0/js/swiper.min.js"></script>
+	<!--<![endif]-->
+	<link href='https://static.styles-sys.com/PageCss.css.php?id=557_303711_1_&pagecacheid=PageCache_557_303711_1_cn_cn_https&siteid=557&yztest=&md5=2691b854b1d3c311a9addcbb1b2a66b6' type='text/css' rel='stylesheet'/>		<script>
+        var SiteType = "1"; var CanDesign = "False"; var CanEditFront = 'False'; var SkinType = "3" || "2";var GridWidth = "1200px";var PageType="7";var DesignType="";
+        var IsWeiXin = navigator.userAgent.toLowerCase().match(/MicroMessenger/i) == 'micromessenger';
+	</script>
+	<script src="https://static.styles-sys.com/PageJs.js?act=MobileJs&v=20190110"></script>
+	<script>
+        loadStyleSheet('/share/jquery-ui-css/ui-lightness/jquery-ui-1.10.2.custom.min.css',CanDesign != 'True'); //非编辑模式下延时加载
+	</script>
+	</head>
+<body id="page_303711" class="module_bg_color">
+<!-- 正常页面结构 -->
+		
+	<!-- 手机导航 -->
+	<div id="MobileNav" class="mobileNav mobileNav_1" navnum="1" navcolor="black" navitemtype="0" enable = "1" style="">
+    <span class="titleName">XX汽配集团</span>
+    <span class="showFloatLayerBtn" onclick="showMobileNavFloatLayer(this)"><i></i></span>
+</div>
+<div id="MobileNavRenderElem" class="mobileNavRenderElem mobileNavRenderElem_1" style=""></div>
+<div id="MobileNavFloatLayer" class="mobileNavFloatLayer mobileNavFloatLayer_1" style="">
+    <ul class="itemList">
+				<li class="item" style="">
+			<a href="/" class="itemLink" target="_self">
+				<span class="icon" style="background-image: none; "></span>
+				<span class="menuName">首页</span>
+			</a>
+        </li><li class="item" style="">
+			<a href="/Content/303636.html" class="itemLink" target="_self">
+				<span class="icon" style="background-image: none; "></span>
+				<span class="menuName">关于我们</span>
+			</a>
+        </li><li class="item" style="">
+			<a href="/Content/303639.html" class="itemLink" target="_self">
+				<span class="icon" style="background-image: none; "></span>
+				<span class="menuName">产品展示</span>
+			</a>
+        </li><li class="item" style="">
+			<a href="/Content/303641.html" class="itemLink" target="_self">
+				<span class="icon" style="background-image: none; "></span>
+				<span class="menuName">新闻动态</span>
+			</a>
+        </li><li class="item" style="">
+			<a href="/Content/303642.html" class="itemLink" target="_self">
+				<span class="icon" style="background-image: none; "></span>
+				<span class="menuName">联系我们</span>
+			</a>
+        </li>    </ul>
+</div>
+<div id="MobileNavMask" class="mobileNavMask"></div>	<!--分销顶部用户-->
+	<div id='userbar'></div>
+	<div id="pagebody" class="siteStyle pageStyle container-fluid pagebody_nav pagebody_nav_1">
+		<div id='freemodulehelper' style='width:1200px;margin:0 auto;height:0px;overflow:hidden;'></div>
+					<div id='HeaderZone' ismodulecontainer='true' class=' HeaderContainer HeaderZoneContainer ZoneContainer HeaderZone ModuleContainer clearfix '><div class="ModuleItem  StaticModule " wo="1912" id="module_4120263"  >
+<div class="ModuleGridV2 module_4120263 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4120263 clearfix'><div class='ModuleGridContainer ModuleGridContainer4120263' gridswidthmode='2'><div class='row ModuleSubContainer'><div id='Sub4120263_1' class='ModuleContainer SubContainer ModuleGridItem    hidden-xs col-xs-0 col-sm-3 col-md-3 col-lg-3' positiontype='2' ismodulecontainer='true'><div class="ModuleItem  StaticModule " wo="298" id="module_4120276"  >
+<div class="ModuleImageTextV2 module_4120276 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4120276 clearfix'><div class='imageTextContainer clearfix'  hasResponsive='1' autohide='0' hideheight='150' hidewidth='760'>
+<div class='ModuleImageTextContent'><p><span style="font-size:36px;"><strong><span style="font-family: &quot;times new roman&quot;;"><span style="color:#ff0000;">LO</span>GO</span></strong></span></p>
+</div>
+</div>
+<script>changeFontSize($('#module_4120276'));</script></div>
+</div>
+</div>
+</div><div class='clearfix visible-xs'></div><div id='Sub4120263_2' class='ModuleContainer SubContainer ModuleGridItem    hidden-xs col-xs-0 col-sm-9 col-md-9 col-lg-9' positiontype='2' ismodulecontainer='true'><div class="ModuleItem  StaticModule " wo="898" id="module_4120284"  >
+<div class="ModuleNav module_4120284 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4120284 clearfix'><div class="pre_nav " data-direction="0" data-subitem-location="1" alwaysshow="0" showPc = "1" showHorizontalIpad = "1" showIpad = "0" showIphone = "0">
+    <div class="navLeft"></div>
+    <div class="nav">
+		<dl class="clearfix" style="display: inline-block;">
+						<dd id="Menu_420344_4120284" class="NavHorizontalDD navMainItemGroup" onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this, event)">
+                <a href='/' target="_self" class="navMainItem clearfix">首页</a>
+                                <ul id="SubMenu_420344_4120284" class="NavSubMenu" style="display:none;margin-top:0">
+					                </ul>            </dd><dd id="Menu_420361_4120284" class="NavHorizontalDD navMainItemGroup" onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this, event)">
+                <a href='/Content/303636.html' target="_self" class="navMainItem clearfix">关于我们</a>
+                                <ul id="SubMenu_420361_4120284" class="NavSubMenu" style="display:none;margin-top:0">
+					                </ul>            </dd><dd id="Menu_420364_4120284" class="NavHorizontalDD navMainItemGroup" onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this, event)">
+                <a href='/Content/303639.html' target="_self" class="navMainItem clearfix">产品展示</a>
+                                <ul id="SubMenu_420364_4120284" class="NavSubMenu" style="display:none;margin-top:0">
+					                </ul>            </dd><dd id="Menu_420366_4120284" class="NavHorizontalDD navMainItemGroup" onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this, event)">
+                <a href='/Content/303641.html' target="_self" class="navMainItem clearfix">新闻动态</a>
+                                <ul id="SubMenu_420366_4120284" class="NavSubMenu" style="display:none;margin-top:0">
+					                </ul>            </dd><dd id="Menu_420367_4120284" class="NavHorizontalDD navMainItemGroup" onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this, event)">
+                <a href='/Content/303642.html' target="_self" class="navMainItem clearfix">联系我们</a>
+                                <ul id="SubMenu_420367_4120284" class="NavSubMenu" style="display:none;margin-top:0">
+					                </ul>            </dd>        </dl>
+            </div>
+    <div class="navRight"></div>
+</div>
+<script type="text/javascript">	
+    var re_nav = new RegExp('^.*' + location.host, 'i');
+    $('.navMainItem,.navSubItem').each(function () {
+        var menuHref = $(this).prop('href').replace(/\?.*$/, '').replace(/\/*$/, '');
+        var homeUrl = location.protocol + "//" + location.hostname.replace(/\/*$/, '');
+        var homeUrlArr = [];
+        homeUrlArr.push(homeUrl);
+        homeUrlArr.push(homeUrl + "/index");
+        homeUrlArr.push(homeUrl + "/home/index");
+        homeUrlArr.push(homeUrl + "/" + getCookie('Lang'));
+        homeUrlArr.push(homeUrl + "/index.php");
+        homeUrlArr.push(homeUrl + "/home/index.php");
+        homeUrlArr.push(homeUrl + "/" + getCookie('Lang') + "/index.php");
+
+        var isMatch = false;
+        if ($.inArray(menuHref, homeUrlArr) > -1) {
+            if ($.inArray(location.href.replace(/\?.*$/, '').replace(/\/*$/, ''), homeUrlArr) > -1) {
+                isMatch = true;
+            }
+        } else if (location.href.indexOf($(this).prop('href')) > -1 && location.href.replace(/(\?|#).*$/, '') == $(this).prop('href').replace(/(\?|#).*$/, '') && location.pathname.indexOf('-') == $(this).prop('href').replace(re_nav, '').indexOf('-')) {
+            isMatch = true;
+        }
+        if (isMatch) {
+            if ($(this).hasClass('navMainItem')) {
+                $(this).addClass('navMainItemHighlight');
+                return false;
+            } else if ($(this).hasClass('navSubItem')) {
+                $(this).closest('.NavSubMenu').siblings('.navMainItem').addClass('navMainItemHighlight');
+                return false;
+            }
+        }
+    });
+</script></div>
+</div>
+</div>
+</div><div class='clearfix visible-lg'></div><div class='clearfix visible-xs'></div></div></div></div>
+</div>
+</div>
+</div>		<div id='BodyMain1Zone' ismodulecontainer='true' class='BodyContainer BodyZoneContainer ZoneContainer ModuleContainer BodyMain1Zone clearfix '>
+			<div class="ModuleItem  StaticModule " wo="1912" id="module_4124234"  >
+<div class="ModuleImage module_4124234 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4124234 clearfix'><img class='image-animation' src='https://cdn.img-sys.com/comdata/557/201612/20161208112956ce5f8c.jpg' alt='图片展示'  effect=''  align='absmiddle' hoverImgSrc=''/></div>
+</div>
+</div>
+<div class="ModuleItem  StaticModule " wo="1912" id="module_4387487"  >
+<div class="ModuleGridV2 module_4387487 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4387487 clearfix'><div class='ModuleGridContainer ModuleGridContainer4387487' gridswidthmode='2'><div class='row ModuleSubContainer'><div id='Sub4387487_1' class='ModuleContainer SubContainer ModuleGridItem     col-xs-12 col-sm-12 col-md-12 col-lg-12' positiontype='2' ismodulecontainer='true'><div class="ModuleItem  StaticModule " wo="1198" id="module_4124231"  >
+<div class="ModuleNewsDetail module_4124231 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4124231 clearfix'><div>
+	<h2 class="newsDetailTitle">汽配电商最重要的还是“汽配数据”</h2>
+	<div class="newsSource">
+											</div>
+	<div class="NewsContent"><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">在政府提出的众多针对汽车汽配市场的政策中，汽车维修数据的开放成为该行业突破性发展的标志。维修数据公开以后，所融合形成的更多维度的大数据能够让整个车后市场形成一个整体，从而打破行业垄断所造成信息不对称壁垒。</span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">　　在大数据基础上，整条产业链上的维修、保养等各环节商家都能更专注与自己所在的行业，所需要的相关数据只要与专门做数据的商家对接即可，这样整个行业就都做轻了，汽车后市场的竞合时代也就由此开始。</span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">　　从产业链来看，当前中国汽车后服务市场基本可分七个大类：包括养护、维修、改装、二手车、汽车配件、相关电商及金融保险等。这七个大类其实可以再做细分，譬如养护就包括洗车、美容、机油及零件更换等服务。</span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">　　七大类汽车服务可以分为汽车服务、车联网相关、及工具社区等三种类型，当前而言，汽车服务类的众多商家正在由重向轻变化，开始由产业链低层向中间层过度，做“服务汽车服务商”的服务商。这一类商家无论是做平台的还是做垂直服务的，在信息化方面都在向“大数据”过渡。</span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">　　因为商家们发现汽车后市场服务中的竞争不在于维修人员的多少，更需要的是对原厂配件、品牌配件、工时、维修信息等数据的适配，举个例子，比如机油滤清器(简 称机滤)需要与上门的客户车型匹配，可原厂机滤很贵，一般的o2o公司都使用曼牌的，那曼牌的哪款机滤适合这个客户的车型呢?这就需要用数据库来做匹配支 持。在数据获取上，有数据积累的商家可以通过更多的渠道获得信息，没有积累的则会与专业的数据库企业进行合作。整个产业链对大数据服务都有重度需求。</span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">　　大数据能带给行业更多的在于商家对于客户以及业务的管理，这些数据具体到汽车后市场，则是对汽车后市场服务商家在沟通用户以及商业营销的综合性管理。尤其是 车型、配件、品牌、保养等数据的灵活调取与应用方面，可以让商家近距离接触车主。甚至不用询问就能了解车主用车信息，可以进一步为车主提供一站式汽车服务 方案。</span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">　　那么，汽车后市场需要哪些数据呢?一个合格的数据服务提供商，应该做到以下几点：</span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><br/></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">　　全品牌全车型全配件的数据信息。要有基于VIN的全车型全配件的通配架构，配件数据库包括：VIN码识别库、车型配置库、保养规则库、配件原厂件号品牌件号通配数据库等。</span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;"><br/></span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">　　与国外同步的数据库关联结构。即时同步国外零部件供应商的信息，能够保证最新车型的零部件填充数据库。</span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;"><br/></span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">　　互联网化的API数据服务。保证每一个与其合作的商家，都能通过API接口对接到并调取所需的数据库信息。</span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">　　至少5年以上的数据库制作经验。整个汽车后市场对数据的需求越来越大，同时也正在产生更大量的数据，数据处理经验以及数据库制作经验尤为重要。</span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;"><br/></span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">　　老生常谈的数据维护。从全品牌到全车款，海量的数据挖掘与匹配，没有一个足够强大的运营团队是不行的。</span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;"><br/></span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">　　DT时代，车辆上传的每一组数据都带有位置信息和时间，并且容易形成海量数据。在大数据平台上，基于对车辆数 据、道路数据、环境感知数据等海量信息的处理、分析、汇总，汽车服务商或整车厂商可获得相关车主的车况、驾驶行为、里程等行车、用车过程中的数据，从而可 基于大数据挖掘对车主进行精细化的管理。</span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;"><br/></span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">　　以上所讲的是广义上大数据对汽车后市场行业的影响，体现在到车后服务方面，大数据确实能够解决很多问题。</span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;"><br/></span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">　　具体而言，大数据模式对于该行业的一些价值可以表现为以下几点：</span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;"><br/></span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">　　首先，促进产业链配件交易的效率。目前，B2B配件交易通过电话询问的发单准确度不足50%，前文所述几大数据库是保证交易信息的准确性的基础，网络交易可以为商家及车主提供更详尽的配件信息，重复换货频次降低。</span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;"><br/></span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">　　其次，多种选择为商家带来价格优势。数据库不只是为商家提供原厂配件信息，同时也提供其他品牌的可替换配件，车主可以根据情况选择合适的配件，同时这也是品牌商家的一个销售渠道。</span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;"><br/></span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">　　再者，改变了传统的咨询方式。将传统汽配行业1对1电话询件询价方式，提升为1对多的数字化询价方式，极大的提高了商家与车主、商家与配件商的沟通效率。</span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;"><br/></span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">　　同时，提供了交易配件的追溯源头可行性。数据库对配件厂商、配件分销商、配件连锁分销商、汽车保养商、配件 B2B电商平台及O2O服务平台都有清楚的记录，并能够逆向查询，这样配件以及服务出现问题之后，便可以逆向找到交易源头，解决了汽车后市场服务的透明化 与公正性的问题，无需再用第三方监督。</span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;"><br/></span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">　　还有，符合国家提倡的“同质配件”战略。当前，中国汽车维修行业协会正在大力推广“同质配件”行动，以推进汽车维修行业健康发展。同质配件也就是“质量相 当配件”，具体到汽车零配件上也就是可以替换原厂配件的零配件替代品，价格更低同时性价比更高。这个政策可以增强民族制造业积极性，并能够降低消费者维护 成本。</span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;"><br/></span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">　　在行业影响方面，除了以上几点，在“互联网 传统”行业方面，大数据融入传统企业的CRM系统并倒逼传统企业升级转型，是“互联网 ”落到实处的一个重要的途径。</span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;"><br/></span></p><p style="color: rgb(102, 102, 102); font-family: 微软雅黑; font-size: 14px; line-height: 25.2px; white-space: normal; background-color: rgb(255, 255, 255);"><span style="font-size: 14px;">　　总而言之，大数据将会为整个汽车后市场行业的进步提供更有利的基础。同时，无人驾驶、车联网、智慧交通及工业4.0等也将受益其中。</span></p><p><br/></p></div>
+			</div>
+<script>
+	$('.NewsContent img:eq(0)').clone().hide().prependTo('body');
+	changeFontSize($('#module_4124231'));
+</script></div>
+</div>
+</div>
+</div><div class='clearfix visible-lg'></div><div class='clearfix visible-xs'></div></div></div></div>
+</div>
+</div>
+<div class="mmm  "  id="module_0"  >
+<div class="ModuleShare module_0 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter0 clearfix'><style>
+	.ModuleShareContainer{width:100%;z-index:99999;background:white}
+	.ModuleShareContainer .title{margin:0 auto;width:100%;display:block;padding:0.625rem 0;text-align:center;font-size:1rem;position:relative;box-shadow: 0px -3px 8px 0px #efefef;}
+	.ModuleShareContainer .close{font-size:1.25rem;position:absolute;display:inline-block;right:0.625rem;width:1.875rem;}
+	.ModuleShareContainer .shareitem{width:24%;display:inline-block;padding:0.5rem 0.2rem;text-align:center;cursor:pointer;}
+	.ModuleShareContainer .ShareIcon{position:fixed;z-index:99999;right:1rem;bottom:7rem;display:block;width:3.125rem;height:3.125rem;text-align:center;border-radius:3.125rem;background-color: #FF9500;opacity: 0.9;-webkit-opacity: 0.9; -moz-opacity: 0.9; filter:alpha(opacity=90);color:white;padding-top:0.313rem; border: 1px #FF952F solid;}
+	.ModuleShare .ShareIcon a{ color: #fff;font-size: 0.875rem;line-height: 1.25rem; display: block;}
+	.ShareTipsModal .jiantou{height:69px;width:100%;margin-top: 2%;position:relative;}
+	.ShareTipsModal .jiantou img{position:absolute;right:5%;}
+
+</style>
+<script src='https://static.styles-sys.com/scripts/nativeShare/nativeShare.js'></script>
+<div id='divShareIcon0' class="ShareIcon">
+	<a href="javascript:void(0)">分享<br>文章</a>
+</div>
+<div id='divShare0' class='ModuleShareContainer' style='display:none;position:fixed;bottom:0;z-index: 100000;'>
+<div class="bdsharebuttonbox">
+	<div class='title' onclick="$('#divShare0').toggle(300)"><b>推荐给朋友</b>
+		<div class='close'><i class="fa fa-close"></i></div>
+	</div>
+	<div class='shareitem' data-app="weixin" title="分享到微信"><img data-cmd="weixin" src='https://cdn.img-sys.com/images/shareicons/weixin.gif' width='40'><div>微信好友</div></div>
+	<div class='shareitem' data-app="QQ" title="分享给QQ好友"><img data-cmd="sqq" src='https://cdn.img-sys.com/images/shareicons/qq.gif' width='40'><div>QQ好友</div></div>
+	<div class='shareitem' data-app="QZone" title="分享到QQ空间"><img data-cmd="qzone" src='https://cdn.img-sys.com/images/shareicons/qzone.gif' width='40'><div>QQ空间</div></div>
+	<div class='shareitem' data-app="sinaWeibo" title="分享到新浪微博"><img data-cmd="tsina" src='https://cdn.img-sys.com/images/shareicons/weibo.gif' width='40'><div>新浪微博</div></div>
+	<!-- <div class='shareitem' title="分享到腾讯微博"><img data-cmd="tqq" src='https://cdn.img-sys.com/images/shareicons/tcn.gif' width='40'><div>腾讯微博</div></div> -->
+	<div class='shareitem' title="分享到朋友网"><img data-cmd="tqf" src='https://cdn.img-sys.com/images/shareicons/pengyou.gif' width='40'><div>腾讯朋友</div></div>
+	<div class='shareitem' title="分享到人人网"><img data-cmd="renren" src='https://cdn.img-sys.com/images/shareicons/renren.gif' width='40'><div>人人网</div></div>
+	<div class='shareitem' id='copyurl' title="复制分享网址"><img src='https://cdn.img-sys.com/images/shareicons/copy.gif' width='40'><div>复制网址</div></div>
+</div>
+</div>
+<div id='divShareA0' style='display:none;'></div>
+<div id='divTipsModal0' style='display:none;z-index:999999' class="ShareTipsModal modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+	<div class="jiantou">
+		<img src="https://cdn.img-sys.com/images/PartyImage/jiantou.png" >
+	</div>
+	<div class="modal-dialog modal-lg">
+		<div class="modal-content">
+			<div class="modal-body" style="-ms-word-break:break-all;word-break:break-all;"></div>
+		</div>
+	</div>
+</div>
+<script>
+window.WeiXinNotAutoShare = true;
+var invite = null;
+$.ajax({ url: "/index.php?c=GetUserInviteId", async: false, success: function (data) {
+		invite = data.trim();
+		//alert(invite);
+	}
+});
+if(!invite) invite = getCookie('WebUserID');
+var addstr = "invite=" + invite;
+var urls = window.location.href.toString().split('#');
+if(urls.length > 1) urls[1] = urls[1].replace(/invite\d+/gi,'');
+var querystring = window.location.search;
+if(querystring){ //过滤掉一些参数
+	querystring = querystring.replace('from=groupmessage','');
+	querystring = querystring.replace(/isappinstalled=\d+/gi,'');
+	querystring = querystring.replace(/wxal=\d+/gi,'');
+	querystring = querystring.replace(/invite=\d+/gi,'');
+	querystring = querystring.replace(/&+/gi,'&');
+	querystring = querystring.replace(/&+$/gi,'');
+	querystring = querystring.replace(/^(\?)/gi,'');
+}
+if(querystring.indexOf("?") == -1) querystring = "?" + querystring;
+querystring += "&" + addstr;
+//querystring += "&wxal=1";
+var shareurl  = "";
+if(!shareurl) shareurl = "http://" + window.location.host + window.location.pathname + querystring + window.location.hash;
+shareurl = shareurl.replace(/(\?&)/gi,'?');
+if(shareurl.indexOf("invite=") > -1 && shareurl.indexOf("#invite") > -1) shareurl = shareurl.replace(/#invite\d+/gi,"");
+//alert(shareurl);
+var urlhash = window.location.hash;
+urlhash = urlhash.replace(/#invite\d+/gi,"");
+urlhash = urlhash.replace(/#wxal=1/gi,"");
+if(invite && typeof ENABLE_FENXIAO != "undefined" && ENABLE_FENXIAO == "1") urlhash += "#invite" + invite;
+//urlhash += "#wxal=1";
+window.location.hash = urlhash;
+
+	$(".ModuleShare").appendTo($("body"));
+	$("#copyurl").click(function(){
+		$("#divTipsModal0 .jiantou").hide(1);
+		$("#divTipsModal0").modal();
+		$("#divTipsModal0 .modal-body").html("您的分享链接为：<br /><span style='color:#ff0000;'>"+shareurl+"</span><br />（长按链接可复制）");
+	});
+	if(!window._bd_share_config){
+		window._bd_share_config = {
+			common : {
+				bdText : document.title,
+				//bdDesc : '自定义分享摘要',
+				//bdPic : '自定义分享图片',
+				bdMiniList: false,
+				bdUrl : shareurl
+			},
+			share: [{
+				"bdSize": 16
+			}]//,
+			// selectShare: [{
+			// 	"bdselectMiniList": ['qzone', 'tqq', 'kaixin001', 'bdxc', 'tqf']
+			// }]
+		}
+	}else{
+		window._bd_share_config.common.bdText = document.title;
+		window._bd_share_config.common.bdUrl = shareurl;
+	}
+	with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)]; //这个脚本必须在初始化了 _bd_share_config 之后加载
+	var share_config = {
+		url:shareurl,
+		title:document.title,
+	};
+	var share_obj = new nativeShare('divShareA0',share_config);
+	if(share_obj.isUC()){
+		$("#divShareIcon0").click(function(){
+			share_obj.share('');
+		});
+	}else if(share_obj.isQQ()){
+		$("#divShareIcon0").click(function(){
+			$('#divShare0').toggle(300,function(){
+				$('#divShare0 .shareitem').click(function(){
+					var item = $(this);
+					if(item.attr('data-app')){
+						share_obj.share(item.attr('data-app'));
+						$('#divShare0').toggle(300);
+						return false;
+					}
+				});
+			});
+		});
+	}else if(share_obj.is_weixin()){
+		with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='https://res.wx.qq.com/open/js/jweixin-1.0.0.js?version='+~(-new Date()/36e5)];
+    if (typeof(WeiXinShare) == 'undefined') {
+      addScript('/scripts/party/weixinshare.js?v=11111', function () {
+        wxShare();
+      });
+    }else{
+      wxShare();
+    }
+	}else{
+		$("#divShareIcon0").click(function(){
+			$('#divShare0').toggle(300,function(){
+
+			});
+		});
+	}
+
+function wxShare() {
+  var urlhash = window.location.hash;
+  urlhash = urlhash.replace(/#invite\d+/gi, "");
+  urlhash = urlhash.replace(/#wxal=1/gi, "");
+  if (invite) urlhash += "#invite" + invite;
+  window.location.hash = urlhash;
+  $("#divTipsModal0").appendTo($('body'));
+  $("#divShareIcon0").click(function () {
+    $("#divTipsModal0 .jiantou").show(1);
+    $("#divTipsModal0").modal();
+    $("#divTipsModal0 .modal-body").html("您的分享链接为：<br /><span style='color:#ff0000;'>" + shareurl + "</span><br />（长按链接可复制）");
+  });
+
+  window.wxshareimg = '' ? '?cdn=0' : '';
+  var sharejson = {
+    title: document.title, // 分享标题
+    desc: $('meta[name="description"]').attr("content") || $('meta[name="keywords"]').attr("content"), // 分享描述
+    link: shareurl.split('#')[0], //分享链接
+    imgUrl: window.wxshareimg ? window.wxshareimg : window.wxshareimgExp
+  };
+  WeiXinShare(sharejson);
+}
+
+</script>
+</div>
+</div>
+</div>
+		</div>
+		<div id='FooterZone' ismodulecontainer='true' class='FooterContainer FooterZoneContainer ZoneContainer FooterZone ModuleContainer clearfix'><div class="ModuleItem  StaticModule " wo="1912" id="module_4121490"  >
+<div class="ModuleGridV2 module_4121490 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4121490 clearfix'><div class='ModuleGridContainer ModuleGridContainer4121490' gridswidthmode='2'><div class='row ModuleSubContainer'><div id='Sub4121490_1' class='ModuleContainer SubContainer ModuleGridItem     col-xs-12 col-sm-9 col-md-9 col-lg-9' positiontype='2' ismodulecontainer='true'><div class="ModuleItem  StaticModule " wo="898" id="module_4121491"  >
+<div class="ModuleNav module_4121491 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4121491 clearfix'><div class="pre_nav " data-direction="0" data-subitem-location="1" alwaysshow="0" showPc = "1" showHorizontalIpad = "1" showIpad = "0" showIphone = "0">
+    <div class="navLeft"></div>
+    <div class="nav">
+		<dl class="clearfix" style="display: inline-block;">
+						<dd id="Menu_420344_4121491" class="NavHorizontalDD navMainItemGroup" onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this, event)">
+                <a href='/' target="_self" class="navMainItem clearfix">首页</a>
+                                <ul id="SubMenu_420344_4121491" class="NavSubMenu" style="display:none;margin-top:0">
+					                </ul>            </dd><dd id="Menu_420361_4121491" class="NavHorizontalDD navMainItemGroup" onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this, event)">
+                <a href='/Content/303636.html' target="_self" class="navMainItem clearfix">关于我们</a>
+                                <ul id="SubMenu_420361_4121491" class="NavSubMenu" style="display:none;margin-top:0">
+					                </ul>            </dd><dd id="Menu_420364_4121491" class="NavHorizontalDD navMainItemGroup" onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this, event)">
+                <a href='/Content/303639.html' target="_self" class="navMainItem clearfix">产品展示</a>
+                                <ul id="SubMenu_420364_4121491" class="NavSubMenu" style="display:none;margin-top:0">
+					                </ul>            </dd><dd id="Menu_420366_4121491" class="NavHorizontalDD navMainItemGroup" onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this, event)">
+                <a href='/Content/303641.html' target="_self" class="navMainItem clearfix">新闻动态</a>
+                                <ul id="SubMenu_420366_4121491" class="NavSubMenu" style="display:none;margin-top:0">
+					                </ul>            </dd><dd id="Menu_420367_4121491" class="NavHorizontalDD navMainItemGroup" onmouseover="showSubMenu(this)" onmouseout="hideSubMenu(this, event)">
+                <a href='/Content/303642.html' target="_self" class="navMainItem clearfix">联系我们</a>
+                                <ul id="SubMenu_420367_4121491" class="NavSubMenu" style="display:none;margin-top:0">
+					                </ul>            </dd>        </dl>
+            </div>
+    <div class="navRight"></div>
+</div>
+<script type="text/javascript">	
+    var re_nav = new RegExp('^.*' + location.host, 'i');
+    $('.navMainItem,.navSubItem').each(function () {
+        var menuHref = $(this).prop('href').replace(/\?.*$/, '').replace(/\/*$/, '');
+        var homeUrl = location.protocol + "//" + location.hostname.replace(/\/*$/, '');
+        var homeUrlArr = [];
+        homeUrlArr.push(homeUrl);
+        homeUrlArr.push(homeUrl + "/index");
+        homeUrlArr.push(homeUrl + "/home/index");
+        homeUrlArr.push(homeUrl + "/" + getCookie('Lang'));
+        homeUrlArr.push(homeUrl + "/index.php");
+        homeUrlArr.push(homeUrl + "/home/index.php");
+        homeUrlArr.push(homeUrl + "/" + getCookie('Lang') + "/index.php");
+
+        var isMatch = false;
+        if ($.inArray(menuHref, homeUrlArr) > -1) {
+            if ($.inArray(location.href.replace(/\?.*$/, '').replace(/\/*$/, ''), homeUrlArr) > -1) {
+                isMatch = true;
+            }
+        } else if (location.href.indexOf($(this).prop('href')) > -1 && location.href.replace(/(\?|#).*$/, '') == $(this).prop('href').replace(/(\?|#).*$/, '') && location.pathname.indexOf('-') == $(this).prop('href').replace(re_nav, '').indexOf('-')) {
+            isMatch = true;
+        }
+        if (isMatch) {
+            if ($(this).hasClass('navMainItem')) {
+                $(this).addClass('navMainItemHighlight');
+                return false;
+            } else if ($(this).hasClass('navSubItem')) {
+                $(this).closest('.NavSubMenu').siblings('.navMainItem').addClass('navMainItemHighlight');
+                return false;
+            }
+        }
+    });
+</script></div>
+</div>
+</div>
+<div class="ModuleItem  StaticModule " wo="898" id="module_4121492"  >
+<div class="ModuleImageTextV2 module_4121492 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4121492 clearfix'><div class='imageTextContainer clearfix'  hasResponsive='1' autohide='0' hideheight='150' hidewidth='760'>
+<div class='ModuleImageTextContent'><p><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px; color: rgb(255, 255, 255);">佛山市XXX有限公司</span></p><p><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px; color: rgb(255, 255, 255);">地址：xx市xx区xx路213号xx大厦A座写字楼1203</span></p><p><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px; color: rgb(255, 255, 255);">全国咨询热线：4000-000-000</span></p><p><br/></p></div>
+</div>
+<script>changeFontSize($('#module_4121492'));</script></div>
+</div>
+</div>
+</div><div class='clearfix visible-xs'></div><div id='Sub4121490_2' class='ModuleContainer SubContainer ModuleGridItem    hidden-xs col-xs-0 col-sm-3 col-md-3 col-lg-3' positiontype='2' ismodulecontainer='true'><div class="ModuleItem  StaticModule mhidden-xs " wo="298" id="module_4121495"  >
+<div class="ModuleImage module_4121495 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4121495 clearfix'><img class='image-animation' src='https://cdn.img-sys.com/comdata/557/201612/201612072051165943c0.gif' alt='图片展示'  effect=''  align='absmiddle' hoverImgSrc=''/></div>
+</div>
+</div>
+</div><div class='clearfix visible-lg'></div><div class='clearfix visible-xs'></div></div></div></div>
+</div>
+</div>
+<div class="ModuleItem  StaticModule " wo="1912" id="module_4121497"  >
+<div class="ModuleImage module_4121497 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4121497 clearfix'><img class='image-animation' src='https://cdn.img-sys.com/comdata/557/201612/201612072055423b69fd.gif' alt='图片展示'  effect=''  align='absmiddle' hoverImgSrc=''/></div>
+</div>
+</div>
+<div class="ModuleItem  StaticModule " wo="1912" id="module_4121498"  >
+<div class="ModuleImageTextV2 module_4121498 clearfix">
+        <!-- 主体 -->
+    <div class='BodyCenter BodyCenter4121498 clearfix'><div class='imageTextContainer clearfix'  hasResponsive='1' autohide='0' hideheight='150' hidewidth='760'>
+<div class='ModuleImageTextContent'><p style="text-align: center;"><span style="font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px; color: rgb(255, 255, 255);">CopyRight 2016XX汽配集团 All Right Reserved</span></p></div>
+</div>
+<script>changeFontSize($('#module_4121498'));</script></div>
+</div>
+</div>
+</div>			</div>
+		<!-- 通栏模块 -->
+		<!-- 底部导航 -->
+	<div class="ModuleItem  "  id="module_4120068"  >
+<div class="FootNavQRCode FootBar" style="z-index:899" onclick="QRShow();">
+    <div class="FootNavMask"></div>
+    <span class="FootNavQRCodeImg" style="display:block;"><img id="imgFootNavQrCode" style="width: 160px; height: 160px;" _src="/index.php?c=front/Qrcode&a=getFootNavQrCode" /></span>
+</div>
+<div class="QQServices" style="z-index:1000" onclick="showService();">
+    <div class="FootNavMask"></div>
+    <ul class="QQList">
+		        <li class="QQCancel">取消</li>
+    </ul>
+</div>
+<div id="MobileFootNavRenderElem" class="mobileNavRenderElem iconAndText" style="position:static;"></div>
+<div id="MobileFootNav" class="footer FootBar iconAndText" style="z-index:900;" bgcolorrelatedtomobilenav="0" ParamfontColor="" enable = "1">
+    <ul class="foot-nav-list" style="">
+		        <li style="width:25%;" itemid=7>
+            <a onclick="showHomePage()">
+                <span class="icon homePage iconfont " style="color:#666;"></span>
+                <span class="itemText" style="color:;">首页</span>            </a>
+        </li>
+                <li style="width:25%;" itemid=5>
+            <a onclick="javascript:history.go(-1);">
+                <span class="icon prevPage iconfont /images/iconV2/white/Arrow_right.png" style="color:#666;background-image:url(https://cdn.img-sys.com/images/iconV2/white/Arrow_right.png);"></span>
+                <span class="itemText" style="color:;">返回</span>            </a>
+        </li>
+        <li style="width:25%; " itemid=2>
+            <a href="tel:">
+                <span class="icon footTel iconfont " style="color:#666;"></span>
+                <span class="itemText" style="color:;">电话咨询</span>            </a>
+        </li>
+                <li style="width:25%;" itemid=1>
+            <a href="/FeedBack" target="_self">
+                <span class="icon footGuestbook iconfont  " style="color:#666;"></span>
+                <span class="itemText" style="color:;">在线留言</span>            </a>
+        </li>
+                <li style="width:25%;display:none;" itemid=3>
+            <a href="">
+                <span class="icon iconfont " style="color:#666;"></span>
+                <span class="itemText" style="color:;">置顶</span>            </a>
+        </li>        <li style="width:25%;display:none;" itemid=4>
+            <a href="">
+                <span class="icon iconfont " style="color:#666;"></span>
+                <span class="itemText" style="color:;">二维码</span>            </a>
+        </li>        <li style="width:25%;display:none;" itemid=6>
+            <a href="">
+                <span class="icon iconfont " style="color:#666;"></span>
+                <span class="itemText" style="color:;">前进</span>            </a>
+        </li>        <li style="width:25%;display:none;" itemid=8>
+            <a href="">
+                <span class="icon iconfont " style="color:#666;"></span>
+                <span class="itemText" style="color:;">在线客服</span>            </a>
+        </li>        <li style="width:25%;display:none;" itemid=9>
+            <a href="">
+                <span class="icon iconfont " style="color:#666;"></span>
+                <span class="itemText" style="color:;">购物车</span>            </a>
+        </li>        <li style="width:25%;display:none;" itemid=11>
+            <a href="/ProductClassPage">
+                <span class="icon iconfont " style="color:#666;"></span>
+                <span class="itemText" style="color:;">产品分类</span>            </a>
+        </li>    </ul>
+</div><script type="text/javascript">
+    function QRShow() {
+		if(!$('#imgFootNavQrCode').attr('src')){
+			$('#imgFootNavQrCode').attr('src',$('#imgFootNavQrCode').attr('_src'));
+		}
+        $(".QQServices").hide();
+        $(".FootNavQRCode").toggle();
+        var dmHeight = $(".FootNavQRCodeImg").height();
+        var sTop = $(".footer").offset().top - dmHeight;
+        var left = $(".footer").offset().left;
+        var width = $('#pagebody').width();
+
+        if (navigator.platform.toLowerCase().indexOf("win") > -1) width = parseInt(width) - 17;
+        if (typeof (modulesContainers) != 'undefined') {
+            $(".FootNavQRCodeImg").css({
+                "width": $('#pagebody').width() - 6,
+                "bottom": $(".footer").height(),
+                "left": left + "px",
+                "height": dmHeight + "px"
+            });
+            $(".FootNavMask").css({
+                "width": "100%",
+                "height": $('#pagebody').outerHeight() + "px",
+                "top": $('#pagebody').offset().top + "px"
+            });
+        } else {
+            $(".FootNavQRCodeImg").css({
+                "width": "192px",
+                "height": "192px",
+                "top": "initial",
+                "bottom": $('#MobileFootNav').innerHeight(),
+                "left": ($('body').outerWidth() / 2 - $(".FootNavQRCodeImg").outerWidth() / 2)
+            });
+            $(".FootNavMask").css({"width": "100%", "height": "100%", "top": "0"});
+        }
+        return false;
+    }
+
+    function gototop(){
+        $('html,body').animate({scrollTop:0},'slow');
+    }
+    function gotobottom(){
+      var scrollHeight = $('body').prop("scrollHeight");
+      $('html,body').animate({scrollTop:scrollHeight},'slow');
+    }
+
+   
+    
+    function ejectimg(obj,action){
+    //console.log(window.event);
+    //如果是弹出窗口的
+    //   var Aobj = $(document).find("a");
+    //   $(Aobj).each(function(i,item){
+    //         if($(item).attr('href').indexOf('javascript:ejectimg')>-1)
+    //         {
+
+    //             var divhtml="<div><img src='"+obj+"'/></div>"
+    //             $(this).append(divhtml);
+    //             console.log($(this).html());
+    //             return false;
+    //         }
+    //   })
+    }
+
+    function showService() {
+        $(".QQServices").show();
+        $(".FootNavQRCode").hide();
+        if (typeof (modulesContainers) != 'undefined') {
+            $(".mobileNav").css("z-index",10);
+            var dmHeight = $(".QQList").outerHeight();
+            var sTop = $(".footer").offset().top - dmHeight+45;
+            var left = $(".footer").offset().left;
+            var width = $('#pagebody').width();
+            if (navigator.platform.toLowerCase().indexOf("win") > -1) width = parseInt(width) - 17;
+            $(".QQList").css({ "width": $('#pagebody').outerWidth() - 6 + "px", "top": sTop + "px", "left": left + "px", "height": dmHeight + "px" });
+            $(".FootNavMask").css({ "width": "100%", "height": $('#pagebody').outerHeight() + "px", "top": $('#pagebody').offset().top + "px" });
+        } else {
+            $(".QQList").css({
+                "bottom": "0px"
+            });
+            $(".FootNavMask").css({ "width": "100%", "height": "100%", "top": "0" });
+        }
+        return false;
+    }
+  
+   
+
+    $(document).on("click", document.body, function (e) {
+        if ($(e.target).hasClass("QQCancel")) {
+            if (typeof (modulesContainers) != 'undefined') {
+                $(".QQList").removeAttr("style");
+            }
+            $(".QQServices").hide();
+            e.stopPropagation();
+        }
+    });
+    function showHomePage() {
+        if (window.location.search.indexOf('view=1') > -1) {
+            window.location.href = window.location.protocol + '//' + window.location.host + '?view=1&SiteType=1';
+        } else {
+            window.location.href = window.location.protocol + '//' + window.location.host + '?SiteType=1';
+        }
+    }
+    $("#MobileFootNavRenderElem").remove();
+    function getUrlParam(name) {
+        //构造一个含有目标参数的正则表达式对象
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+        //匹配目标参数
+        var r = window.location.search.substr(1).match(reg);
+        //返回参数值
+        if (r != null) {
+            return decodeURI(r[2]);
+        }
+        return null;
+    }
+</script>
+</div>
+<!-- 正常页面结构 end -->
+<!-- 单页滚屏页面结构 -->
+<!-- 单页滚屏页面结构 end -->
+<script type="text/javascript">
+    var rawUrl="";
+    var Page="YouZhan.SiteFront.NewsDetail";
+    var PageID="303711";
+    var PageConf = {"EnableBodyTopZone":true,"EnableBodyFootZone":true,"EnableBodyLeftZone":false,"EnableBodyRightZone":false,"EnableBodyFullPage":true,"EnableBodyMain1Zone":true,"EnableBodyMain2Zone":false,"EnableBodyMain3Zone":false,"EnableBodyMain4Zone":false,"HeaderZonePositionType":0,"FooterZonePositionType":0,"BodyTopZonePositionType":0,"BodyFootZonePositionType":0,"BodyLeftZonePositionType":0,"BodyRightZonePositionType":0,"BodyMain1ZonePositionType":0,"BodyMain2ZonePositionType":0,"BodyMain3ZonePositionType":0,"BodyMain4ZonePositionType":0,"EnableFreeMain":true};
+    var SiteType="1";
+    var IsUserCenter = "0";
+    var hasFullSwitch = 0;
+    var isPlatformVersion = "1";
+	var SiteCreateTime = "1481104701";
+	var ENABLE_FENXIAO = "1";
+	var isSysDomain = false; var SysDomain = ["yz168.cc","ijianzhan.net","iyz168.com","wds168.cn","dzg168.com","ish168.com"];
+	for(var i in SysDomain){ if(location.host.indexOf(SysDomain[i]) > -1){isSysDomain = true;break;} }
+    if(navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE6.0" || navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE7.0" || navigator.appName == "Microsoft Internet Explorer" && navigator.appVersion .split(";")[1].replace(/[ ]/g,"")=="MSIE8.0"){
+		checkBowerTip();
+	}
+</script>
+<!-- 加载设计界面所用的脚本和css -->
+<script type='text/javascript'>
+	delayload({ id: ['pagebody'], src: '/images/loading2.gif', bgsrc: '/images/imgbg.png' });
+</script>
+<!--统计代码-->
+<script type='text/javascript'>
+	var referrer = document.referrer + '';
+	if(IsWeiXin && referrer == '') referrer = 'wechat.com';
+	var countersrc = '/index.php?c=Front/Count&Referer='+escape(referrer)+'&Width='+escape(screen.width)+'&Height='+escape(screen.height)+'&Page='+escape(window.location.pathname+window.location.search);
+    document.write("<script async type='text/javascript' src='" + countersrc + "'></"+"script>");
+    if (window.location.getQueryString){
+      var linkKID = window.location.getQueryString("linkKID");
+      if(linkKID){
+		var linkKeySrc = '/index.php?c=Front/Seo&a=innerLink&linkKID=' + linkKID;
+        document.write("<script async type='text/javascript' src='" + linkKeySrc + "'></"+"script>");
+      }
+    }
+</script>
+<!-- 百度商桥&百度统计安装代码 -->
+<script src="https://static.styles-sys.com/share/wow.min.js"></script>
+	<script>
+        new WOW().init();
+	</script>
+<script>
+    if (!IsWeiXin){
+        addScript('/share/floaters.js',function(){
+            addScript('/index.php?c=Front/IMPanel',null);
+        });
+		    }else{
+        addScript('/scripts/jweixin-1.0.0.js');
+        addScript('/scripts/party/weixinshare.js?v=20180919002');
+    }
+    $(window).load(function(){
+        if (IsWeiXin) {
+            var match = window.location.href.match(/#invite(\d+)/i);
+            var barurl = "/index.php?c=front/UserBar";
+            if(match && match[1]) barurl += "&invite="+match[1];
+            if ("YouZhan.SiteFront.NewsDetail" == "YouZhan.SiteFront.HomeIndex" || "YouZhan.SiteFront.NewsDetail" == "YouZhan.SiteFront.NewsDetail" || "YouZhan.SiteFront.NewsDetail" == "YouZhan.SiteFront.ProductDetail") $("#userbar").load(barurl);
+        }
+    });
+</script>
+<script>
+	$(window).load(function(){
+		var WUserID = getCookie("WUserID");
+		$.getJSON("https://www.72dns.com/autoweb/getagentinfo.aspx?action=getcopyright&wuserid="+ WUserID +"&callback=?", null, function (json) {
+				if(json.success){
+					$("body").append(json.info);
+				}
+			}
+		);
+	})
+</script>
+
+</body>
+</html>
